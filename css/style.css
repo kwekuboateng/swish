@@ -208,6 +208,21 @@ section {
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
 }
 
+.btn-white {
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #000;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.btn-white:hover {
+  -webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+  background: #256be6;
+}
+
 .btn-round, .iconBox .btn {
   border-radius: 50px;
 }
@@ -1216,7 +1231,7 @@ section {
  * Banner style
  */
 .banner {
-  background-image: url("../images/banner/1.jpg");
+  background-image: url("../images/banner/banner0.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1380,7 +1395,7 @@ section {
 }
 
 .banner.v7 {
-  background-image: url("../images/banner/10.jpg");
+  background-image: url("../images/banner/banner0.jpg");
 }
 
 .banner.v7:before {
