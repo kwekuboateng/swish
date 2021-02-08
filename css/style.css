@@ -878,7 +878,8 @@ section {
 
 .header.fixed-header, .fixed-header.header02, .fixed-header.header03, .fixed-header.header04 {
   position: fixed;
-  background: #123d88;
+  /* background: #123d88; */
+  background: #37517e;
 }
 
 .header .container, .header02 .container, .header03 .container, .header04 .container {
@@ -1231,7 +1232,7 @@ section {
  * Banner style
  */
 .banner {
-  background-image: url("../images/banner/banner0.jpg");
+  /* background-image: url("../images/banner/banner0.jpg"); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1351,7 +1352,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background: #004bc8;
+  background: #37517e;
   opacity: .7;
 }
 
@@ -1395,7 +1396,8 @@ section {
 }
 
 .banner.v7 {
-  background-image: url("../images/banner/banner0.jpg");
+  /* background-image: url("../images/banner/banner0.jpg"); */
+  background-color: #37517e;
 }
 
 .banner.v7:before {
@@ -2451,7 +2453,7 @@ section {
 
 .form-tab {
   background-color: #fff;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: hidden;
 }
 
