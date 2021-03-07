@@ -1,0 +1,84 @@
+/* #container {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+} */
+
+#remitone-calculator form > div {
+  margin: 0;
+}
+
+#remitone-calculator .source_amount {
+  border-bottom-left-radius: 0;
+  border-bottom: 0;
+}
+#remitone-calculator .source_amount + div button {
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+#remitone-calculator .destination_amount {
+  border-top-left-radius: 0;
+}
+#remitone-calculator .destination_amount + div button {
+  border-top-right-radius: 0;
+}
+
+#remitone-calculator .source_amount,
+#remitone-calculator .destination_amount {
+  font-size: 2em;
+  height: 72px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#remitone-calculator .source_amount_currency_section,
+#remitone-calculator .destination_amount_currency_section {
+  position: relative;
+}
+#remitone-calculator label {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  z-index: 99;
+  color: #0e243e;
+  font-size: 0.9em;
+}
+
+#remitone-calculator > div {
+  margin: 0;
+}
+#remitone-calculator .fees_charge_promo_applied_rate_section,
+#remitone-calculator .error_message_section {
+  margin: 5px 0;
+}
+
+#remitone-calculator .input-group-btn.calculator_currency_dropdown,
+#remitone-calculator .source_amount + div button,
+#remitone-calculator .destination_amount + div button {
+  color: #fff;
+  font-size: 1.2em;
+}
+#remitone-calculator .source_amount + div button,
+#remitone-calculator .destination_amount + div button {
+  background-color: #0e243e;
+}
+#remitone-calculator .source_amount + div button:hover,
+#remitone-calculator .destination_amount + div button:hover:hover {
+  background-color: #000b25;
+}
+#remitone-calculator .btn .caret {
+  margin-left: 10px;
+}
+#remitone-calculator .calculator_currency_dropdown .dropdown-menu,
+#remitone-calculator .calculator_currency_dropdown .btn-default {
+  min-width: 100px !important;
+}
+
+#remitone-calculator .source_amount_currency_section button.btn {
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+#remitone-calculator .destination_amount_currency_section button.btn {
+  padding-top: 20px;
+  padding-bottom: 22px;
+}

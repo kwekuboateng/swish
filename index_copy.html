@@ -20,9 +20,6 @@
     <link rel="stylesheet" href="css/roysha-icons.css" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- <link rel="stylesheet" href="https://test.remit.by/momoworldtest/corporate-calculator/css/bootstrap.min.css" type="text/css" /> -->
-	  <link rel="stylesheet" href="https://test.remit.by/momoworldtest/corporate-calculator/css/bootstrap-select.min.css" type="text/css" />
-	  <link rel="stylesheet" href="https://test.remit.by/momoworldtest/corporate-calculator/css/calculator.css" type="text/css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/nice-select.css" />
@@ -31,7 +28,6 @@
     <link rel="stylesheet" href="css/comparison.css" />
 
     <!-- custom css if you need -->
-    <link rel="stylesheet" href="css/remitone/corporate_calculator.css" />
     <link rel="stylesheet" href="css/custom.css" />
 
     <!-- Color Palette. simple uncommned if you need any color palette -->
@@ -98,12 +94,140 @@
             </div>
           </div>
           <div class="col-lg-5 col-md-12">
-            <div id="remitone-calculator" class="form-tab">
+            <div id="remitone-calculator"class="form-tab">
               <ul class="nav nav-tabs">
                 <li>
-                  <a class="active" data-toggle="tab" href="#send-money">Send Money</a>
+                  <a class="active" data-toggle="tab" href="#send-money"
+                    >Send Money</a
+                  >
                 </li>
+                <!-- <li><a data-toggle="tab" href="#receive-money">Receive Money</a></li> -->
               </ul>
+              <div class="tab-content currency-form">
+                <div id="send-money" class="tab-pane fade in active show">
+                  <form class="" action="#">
+                    <div class="form-field">
+                      <label>send amount</label>
+                      <div class="join-field">
+                        <input
+                          type="text"
+                          name="send_amount"
+                          placeholder="$1,000.00"
+                        />
+                        <div class="curr-select">
+                          <span class="selected"
+                            ><img src="images/flags/usa.png" alt="" />usd
+                            &nbsp;<i class="fas fa-caret-down"></i
+                          ></span>
+                          <ul>
+                            <li>
+                              <a href="#"
+                                ><img
+                                  src="images/flags/australia.png"
+                                  alt=""
+                                />aud</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#"
+                                ><img
+                                  src="images/flags/canada.png"
+                                  alt=""
+                                />cad</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="currency-text">
+                      <span><strong>75.5</strong> Exchange Rate</span>
+                      <span><strong>$4.50</strong> Transition Fees</span>
+                    </div>
+                    <div class="form-field">
+                      <label>Receive amount</label>
+                      <div class="join-field">
+                        <input
+                          type="text"
+                          name="send_amount"
+                          placeholder="$1,000.00"
+                        />
+                        <div class="curr-select">
+                          <span class="selected"
+                            ><img src="images/flags/australia.png" alt="" />aud
+                            &nbsp;<i class="fas fa-caret-down"></i
+                          ></span>
+                          <ul>
+                            <li>
+                              <a href="#"
+                                ><img
+                                  src="images/flags/australia.png"
+                                  alt=""
+                                />aud</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#"
+                                ><img src="images/flags/usa.png" alt="" />usa</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-block btn-filled form-btn">
+                      <span class="bh"></span>
+                      <span
+                        >Continue Transition <i class="fas fa-arrow-right"></i
+                      ></span>
+                    </button>
+                    <span class="accept-terms"
+                      >By clicking continue, i am agree with
+                      <a href="#">Terms &amp; Policy</a></span
+                    >
+                  </form>
+                </div>
+
+                <!-- <div id="receive-money" class="tab-pane fade">
+                  <form class="" action="#">
+                    <div class="form-field">
+                      <label>send amount</label>
+                      <div class="join-field">
+                        <input type="text" name="send_amount" placeholder="$1,000.00">
+                        <div class="curr-select">
+                          <span class="selected"><img src="images/flags/usa.png" alt="">usd &nbsp;<i class="fas fa-caret-down"></i></span>
+                          <ul>
+                            <li><a href="#"><img src="images/flags/australia.png" alt="">aud</a></li>
+                            <li><a href="#"><img src="images/flags/canada.png" alt="">cad</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-field">
+                      <label for="rcv_country">Receiver Country</label>
+                      <select id="rcv_country" name="rcv_country">
+                        <option>Select Country</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="australia">Australia</option>
+                      </select>
+                    </div>
+                    <div class="form-field">
+                      <label for="del_type">Delivery Type</label>
+                      <select id="del_type" name="del_type">
+                        <option>Choose Delivery Type</option>
+                        <option value="imt">Immediate Transfer</option>
+                        <option value="rtt">Real Time Transfer</option>
+                        <option value="eft">Electronic Transfer</option>
+                      </select>
+                    </div>
+                    <button class="btn btn-block btn-filled form-btn">                
+                      <span class="bh"></span> <span>Continue Transition <i class="fas fa-arrow-right"></i></span>
+                    </button>
+                    <span class="accept-terms">By clicking continue, i am agree with <a href="#">Terms &amp; Policy</a></span>
+                  </form>
+                </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -8490,20 +8614,17 @@
     <!-- JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://test.remit.by/momoworldtest/corporate-calculator/js/bootstrap-select.min.js"></script>
-	  <script type="text/javascript" src="https://test.remit.by/momoworldtest/corporate-calculator/js/currencyFormatter.min.js"></script>
-	  <script type="text/javascript" src="https://test.remit.by/momoworldtest/corporate-calculator/js/bind-with-delay.js"></script>
-	  <script type="text/javascript" src="https://test.remit.by/momoworldtest/corporate-calculator/js/calculator.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/owl.carousel2.thumbs.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
-    <!-- <script src="../../cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script> -->
-    <!-- <script src="../../s3-us-west-2.amazonaws.com/s.cdpn.io/106949/jquery.onscreen.js"></script> -->
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="../../s3-us-west-2.amazonaws.com/s.cdpn.io/106949/jquery.onscreen.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/remitone/corporate_calculator.js"></script>
+
   </body>
+
+  <!-- Mirrored from demo.themeies.com/roysha-html/home-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2020 12:20:53 GMT -->
 </html>
