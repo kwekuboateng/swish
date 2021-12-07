@@ -1,5 +1,6 @@
 var remitone = $("#remitone-calculator").calculator({
   base_url: "https://test.remit.by/momoworldtest",
+  submit_url: "https://test.remit.by/momoworldonlinetest/prices/send_money",
   orientation: "vertical",
   order: [
     "source_amount_currency",
