@@ -208,6 +208,10 @@ section {
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
 }
 
+.header .primary-menu ul li a {
+  font-size: 20px;
+}
+
 .btn-white {
   background-color: #ffffff;
   border-radius: 50px;
@@ -1265,7 +1269,7 @@ section {
 .banner .ban-content h1 {
   color: #fff;
   font-size: 46px;
-  line-height: 60px;
+  /* line-height: 5px; */
   text-transform: capitalize;
   margin-bottom: 0;
 }
@@ -1352,7 +1356,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background: #37517e;
+  /* background: #37517e; */
   opacity: .7;
 }
 
@@ -1396,8 +1400,8 @@ section {
 }
 
 .banner.v7 {
-  /* background-image: url("../images/banner/banner0.jpg"); */
-  background-color: #37517e;
+  background-image: url("../images/african-woman.jpg");
+  /* background-color: #37517e; */
 }
 
 .banner.v7:before {
